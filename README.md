@@ -5,8 +5,8 @@ A full-stack MERN application where users can browse products, add items to thei
 ---
 
 ## 🌐 Live Demo
-- **Frontend (Vercel):** https://your-frontend.vercel.app
-- **Backend (Render):** https://your-backend.onrender.com/api
+- **Frontend (Vercel):** https://wishlist-review-app.vercel.app/
+- **Backend (Render):** https://wishlist-review-app.onrender.com/api
 
 ---
 
@@ -75,7 +75,7 @@ npm install
 ```
 Create a `.env` file in `frontend/`:
 ```env
-VITE_API_BASE_URL=http://localhost:5000/api
+REACT_APP_API_BASE_URL= https://wishlist-review-app.vercel.app/api || http://localhost:5000/api
 ```
 Then run:
 ```bash
@@ -99,6 +99,11 @@ Password: Password123
 ```
 
 ---
+
+### 📬 API Documentation
+
+You can import the full API in Postman using this collection:  
+[Download WishlistReviewAPI.json](./WishlistReviewAPI.json)
 
 ## 📦 Tech Stack
 
