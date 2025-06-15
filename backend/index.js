@@ -16,5 +16,5 @@ app.use("/api/products", require("./routes/productRoutes"));
 app.use("/api/wishlist", require("./routes/wishlistRoutes"));
 app.use("/api/reviews", require("./routes/reviewRoutes"));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
